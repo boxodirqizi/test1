@@ -1,0 +1,35 @@
+h1{
+    color:brown;
+    font-family: fantasy;
+    font-size: 45px;
+}
+.game  {
+    margin: auto;
+    width: 900px;
+    height: 400px;
+    border-bottom: 1.7px solid #ff00fa;
+}
+#tree{
+    width: 100px;
+    height: 75px;
+    background-image: url("02-removebg-preview.png");
+    background-size: 100px 80px;
+    position: relative;
+    left: 250px;
+}
+#cactus{
+    width: 20px;
+    height: 400px;
+   background-image: url("/img/01.png");
+    background-size: 20px 40px;
+    position: relative;
+    top: 360px;
+    left: 880px;
+    animation: cactusMov 5s infinite linear;
+}
+@keyframes cactusMov{
+    0%{
+        left: 580px;
+    }
+    
+}
